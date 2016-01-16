@@ -1,4 +1,40 @@
 body{
-	font-family: arial, verdana;
-	color: #ccc;}
-	
+	width: 1050px;
+	height: 1000px;
+    font-family: arial, verdana, sans-serif;
+    color: #ccc;
+}
+#page{
+	margin: 0px, auto;
+	display: block;
+}
+#leftsection{
+    width: 250px;
+    float: left;
+    margin: 140px auto;
+}
+.head{
+	display: inline-block;
+	width: 300px;
+}
+#rightsection{
+	width: 800px;
+	float: left;
+	margin: 0px auto;
+}
+.orange, .gray, .black{
+	border: 2px solid orange;
+	background: orange;
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin-left: 50px;
+}
+.column1, .column2, .column3{
+	display: inline-block;
+	margin: 0px;
+	width: 240px;
+}
+.line{
+	border: 1.5px solid #ccc;
+}
