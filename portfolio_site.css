@@ -1,6 +1,6 @@
 body{
 	width: 1050px;
-	height: 1000px;
+	height: 1400px;
     font-family: arial, verdana, sans-serif;
     color: #ccc;
 }
@@ -13,24 +13,36 @@ body{
     float: left;
     margin: 140px auto;
 }
-.head{
-	display: inline;
+#head{
+  display: inline-block;
+  width: 850px;
+  margin: 0px auto;
 }
-.logo{
-   text-align: left;
-  height: 0px
-}
-.nameTitle{
-  text-align: right;
+.name{
   font-size: 50px;
-  height: 130px;
+  width: 650px;
+  height: 90px;
+  float: right;
+}
+p{
+  margin: 0px auto;
+  float: right;
 }
 span{
   font-size: 20px;
+  float: right;
+}
+figure{
+  margin: 0px auto;
+}
+.logo{
+  float: left;
+  width: 200px;
+  height: 90px;
 }
 #rightsection{
 	width: 800px;
-	float: left;
+	float: right;
 	margin: 0px auto;
 }
 .orange, .gray, .black{
