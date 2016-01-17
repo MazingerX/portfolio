@@ -6,11 +6,34 @@ body{
   margin: 40px auto;
 }
 #page{
-	margin: 0px, auto;
-	display: block;
+  width: 1050px;
 }
-#leftsection{
+#rightSection{
+    width: 250px;
+    height: 1400px;
+    display: inline-block;
+}
+p.orange{
+  border: 2px solid orange;
+  background: orange;
+  width: 70px;
+  height: 70px;
+}
+p.green{
+  border: 2px solid green;
+  background: green;
+  width: 70px;
+  height: 70px;
+}
+p.blue{
+  border: 2px solid blue;
+  background: blue;
+  width: 70px;
+  height: 70px;
+}
+#leftSection{
 	width: 800px;
+  height: 1400px;
 	float: right;
 	margin: 0px auto;
 }
@@ -45,7 +68,7 @@ span{
 }
 .pictureMe{
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 #bottom{
   display: block;
@@ -57,32 +80,41 @@ p.featured{
   margin: 5px auto 10px auto;
   width: 800px;
 }
+#bottom{
+  width: 800px;
+  height: 500px;
+  margin: 0px auto;
+  display: block;
+}
 .columns{
   width: 800px;
   height: 173px;
   margin: 0px auto;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
+}
+figure{
+  margin: 0px;
+}
+.columns{
+  margin-top: 20px;
 }
 .column1{
 	float: left;
+  width: 220;
+  height: 170;
 }
 .column2{
-  float: inherit;
+  float: left;
+  width: 220;
+  height: 170;
+  margin-left: 9%
 }
 .column3{
 	float: right;
+  width: 220;
+  height: 170;
 }
-#rightsection{
-    width: 250px;
-    float: left;
-    margin: 140px auto;
-}
-.orange, .gray, .black{
-	border: 2px solid green;
-	background: green;
-	display: block;
-	width: 70px;
-	height: 70px;
-	margin-left: 50px;
+figcaption{
+  text-align: left;
 }
