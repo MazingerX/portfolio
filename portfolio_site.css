@@ -3,25 +3,32 @@ body{
 	height: 1400px;
     font-family: arial, verdana, sans-serif;
     color: #ccc;
+  margin: 40px auto;
 }
 #page{
 	margin: 0px, auto;
 	display: block;
 }
 #leftsection{
-    width: 250px;
-    float: left;
-    margin: 140px auto;
+	width: 800px;
+	float: right;
+	margin: 0px auto;
 }
 #head{
   display: inline-block;
-  width: 850px;
+  width: 800px;
   margin: 0px auto;
+}
+figure.logo{
+  margin: 0px auto;
+  float: left;
+  width: 120px;
+  height: 95px;
 }
 .name{
   font-size: 50px;
-  width: 650px;
-  height: 90px;
+  width: 600px;
+  height: 95px;
   float: right;
 }
 p{
@@ -29,21 +36,47 @@ p{
   float: right;
 }
 span{
-  font-size: 20px;
+  font-size: 25px;
   float: right;
 }
-figure{
-  margin: 0px auto;
+.line{
+  border: 1.5px solid #ccc;
+  margin: 10px auto;
 }
-.logo{
+.pictureMe{
+  text-align: center;
+  margin: 20px auto;
+}
+#bottom{
+  display: block;
+  width: 800px;
+}
+p.featured{
+  font-size: 25px;
   float: left;
-  width: 200px;
-  height: 90px;
+  margin: 5px auto 10px auto;
+  width: 800px;
+}
+.columns{
+  width: 800px;
+  height: 173px;
+  margin: 0px auto;
+  display:inline-block;
+  text-align: center;
+}
+.column1{
+	float: left;
+}
+.column2{
+  float: inherit;
+}
+.column3{
+	float: right;
 }
 #rightsection{
-	width: 800px;
-	float: right;
-	margin: 0px auto;
+    width: 250px;
+    float: left;
+    margin: 140px auto;
 }
 .orange, .gray, .black{
 	border: 2px solid green;
@@ -52,12 +85,4 @@ figure{
 	width: 70px;
 	height: 70px;
 	margin-left: 50px;
-}
-.column1, .column2, .column3{
-	display: inline-block;
-	margin: 0px;
-	width: 240px;
-}
-.line{
-	border: 1.5px solid #ccc;
 }
