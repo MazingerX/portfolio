@@ -1,6 +1,6 @@
 body{
 	width: 1050px;
-	height: 1400px;
+	height: 100px;
     font-family: arial, verdana, sans-serif;
     color: #ccc;
   margin: 40px auto;
@@ -12,24 +12,22 @@ body{
     width: 250px;
     height: 1400px;
     display: inline-block;
+    margin-top: 145px;
 }
-p.orange{
-  border: 2px solid orange;
-  background: orange;
-  width: 70px;
-  height: 70px;
+.orange{
+  width: 180px;
+  height: 140px;
+  margin-bottom: 60px;
 }
-p.green{
-  border: 2px solid green;
-  background: green;
-  width: 70px;
-  height: 70px;
+.green{
+  width: 180px;
+  height: 140px;
+  margin-bottom: 60px;
 }
-p.blue{
-  border: 2px solid blue;
-  background: blue;
-  width: 70px;
-  height: 70px;
+.blue{
+  width: 180px;
+  height: 140px;
+  margin-bottom: 60px;
 }
 #leftSection{
 	width: 800px;
@@ -68,7 +66,7 @@ span{
 }
 .pictureMe{
   text-align: center;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 #bottom{
   display: block;
